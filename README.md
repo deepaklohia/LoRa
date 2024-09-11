@@ -1,27 +1,32 @@
-### &#x1F534; Problem Statement : We need to wake up early to check water at random intervals. with this automation we can schedule and run the water automatically using Alexa Routines. Blynk will have a preview and history of data if the water was detected and run time as well. ###
+## &#x1F534; Problem Statement##
+### we have two properties, say A & B, Property-A has good wifi , Property-B  has wifi issues. Due to which sometimes we are not able to send Relay/ motor signal to Property B. ###
 
 
-## &#x1F34F;Youtube:Basic Water Detection System using Arduino ##
-[![YOUTUBE](https://github.com/user-attachments/assets/32bf340a-1b99-406c-af8c-cc571b5c042a)](https://youtu.be/We5FqSh9aIE)
 
-## Circuit Diagram:Ardiuno Water Detector using RTC Clock ##
-detecting pipeline water using Arduino automation 
+## &#x1F34F;Solution ## 
+We will be passing LoRa Signal from property-A to property-B ,in order to control motor relays at Property-B. Blynk is used at Property-A to ease this process.We can also Add Automations in Blynk to turn on relays at specific time or turn them on manually as well.
 
-![Screenshot 2024-08-04 at 9 26 58 PM](https://github.com/user-attachments/assets/cc21a9db-6728-4888-a027-b1f6ded20285)
+## Sendor: Wemos D1 R2 ##
 
-you are free to use the automation . There might be upgrades and changes in the Tools and technology by the time you start using the automation . use google for ur queries. 
+WEMOS D1 R2 PIN CONNECTION
+- LoRa DI00 >> D2
+- LoRa RST >> D14/SDA
+- LoRa NSS > D10 / SS
+- LoRa MOSI >> D11 / MOSI
+- LoRa MISO >> D12 / MISO
+- LoRa SCK >> D13 / SCK
 
-# &#x1F34F;Youtube:Advanced Water Detection System using IoT #
-[![YOUTUBE](https://github.com/user-attachments/assets/3f605e31-ccc3-4f9b-b228-355d9e7bf456)](https://youtu.be/cSN_DNjiItk)
+![IMG_9003](https://github.com/user-attachments/assets/2c0e27f9-2b67-4c87-8e83-96670a0347ea)
 
-## Workflow diagram: Water Detection System using NodeMCU and Blynk IoT ##
-![BLUYN](https://github.com/user-attachments/assets/b279c56d-5d85-4f13-9a76-55b63aff8ced)
+## Receiver: Arduino UNO ##
+ARDUINO PIN CONNECTION
+- LoRa DI00 >> 2
+- LoRa RST >> 9
+- LoRa NSS >> 10
+- LoRa MOSI >> 11
+- LoRa MISO >> 12
+- LoRa SCK >> 13
 
-## Original tool Snapshot ##
-![ORIGINAL](https://github.com/user-attachments/assets/a7c298f1-df53-40f9-9077-38fe039e13ec)
-
-## Blynk Preview (advanced) ##
-
-![Blynk Preview](https://github.com/user-attachments/assets/5f7cddc4-b881-4358-bf2d-b8629c553f62)
+![IMG_9004](https://github.com/user-attachments/assets/21ff4416-2e6b-414e-9e26-3bbc867f1e5d)
 
 ### $${\color{green}JDGJSS \space Powered \space by: Deepak  \space Lohia \space Automations}$$ ###
