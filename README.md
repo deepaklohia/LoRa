@@ -6,7 +6,7 @@
 ## &#x1F34F;Solution ## 
 In order to control motor relays , we will be passing LoRa Signal from property-A to property-B. Blynk is being used at Property-A to ease this process.We can also add blynk Automations to turn on relays at specific interval of time or turn them on manually or when an event occurs.
 
-## Sendor: Wemos D1 R2 ##
+## Sender: Wemos D1 R2 ##
 
 WEMOS D1 R2 - PIN CONNECTION
 - LoRa DI00 >> D2
@@ -26,6 +26,8 @@ ARDUINO UNO  - PIN CONNECTION
 - LoRa MOSI >> 11
 - LoRa MISO >> 12
 - LoRa SCK >> 13
+
+Relay Pins to 4,5,6,7 on Arduino Uno
 
 ![IMG_9004](https://github.com/user-attachments/assets/21ff4416-2e6b-414e-9e26-3bbc867f1e5d)
 
