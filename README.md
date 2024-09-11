@@ -29,4 +29,6 @@ ARDUINO UNO  - PIN CONNECTION
 
 ![IMG_9004](https://github.com/user-attachments/assets/21ff4416-2e6b-414e-9e26-3bbc867f1e5d)
 
+## Code is in Attachments ##
+
 ### $${\color{green}JDGJSS \space Powered \space by: Deepak  \space Lohia \space Automations}$$ ###
