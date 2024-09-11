@@ -6,7 +6,7 @@
 ## &#x1F34F;Solution ## 
 In order to control motor relays , we will be passing LoRa Signal from property-A to property-B. Blynk is being used at Property-A to ease this process.We can also add blynk Automations to turn on relays at specific interval of time or turn them on manually or when an event occurs.
 
-## Sender: Wemos D1 R2 ##
+## Sender: Wemos D1 R2 / Node MCU (recommended) ##
 
 WEMOS D1 R2 - PIN CONNECTION
 - LoRa DI00 >> D2
