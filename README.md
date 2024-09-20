@@ -1,7 +1,8 @@
 ## &#x1F534; Problem Statement ##
 ### We have two properties, say A & B, Property-A has good wifi , Property-B  has wifi issues. Due to which sometimes we are not able to turn on Relay/Motor Relay at Property-B. ###
 
-
+## How to use guide on Youtube ## 
+[![Lora Relay Automation](https://github.com/user-attachments/assets/3f78a543-ac91-46ab-b57a-94e98ec21509)](https://youtu.be/VLK0ancuiW0)
 
 ## &#x1F34F;Solution ## 
 In order to control motor relays , we will be passing LoRa Signal from property-A to property-B. Blynk is being used at Property-A to ease this process.We can also add blynk Automations to turn on relays at specific interval of time or turn them on manually or when an event occurs.
